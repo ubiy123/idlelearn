@@ -12,13 +12,27 @@
 
 ## 技术栈
 
-- 前端：Next.js 14 + Tailwind CSS + shadcn/ui + TipTap + KaTeX
+- 前端：Next.js 14 + Tailwind CSS v4 + shadcn/ui + TipTap + KaTeX
 - 后端：FastAPI + PostgreSQL + Redis + Celery + MinIO + Meilisearch
 - AI：DeepSeek API (V3/R1)
 
+## 目录结构
+
+```
+apps/
+  web/          # Next.js 前端项目
+  api/          # FastAPI 后端项目（待搭建）
+docs/           # PRD、数据库设计等文档
+```
+
 ## 开发状态
 
-当前处于 PRD 与数据库设计阶段，即将进入项目搭建。
+- [x] PRD v1.2
+- [x] 数据库设计
+- [x] AI 点评模块（idlelearn-ai，4 tests passing）
+- [x] Next.js 前端脚手架（apps/web）
+- [ ] FastAPI 后端脚手架
+- [ ] 投资学第一课内容
 
 ## 协议
 
